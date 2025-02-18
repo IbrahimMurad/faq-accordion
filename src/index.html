@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <script src="script.js" defer></script>
+
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+  <body>
+    <div role="banner">
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="../assets/images/background-pattern-desktop.svg"
+        />
+        <img
+          src="../assets/images/background-pattern-mobile.svg"
+          alt="An illustrated banner of purple background and few pink lines passes through it"
+          width="375"
+          height="232"
+        />
+      </picture>
+    </div>
+    <main>
+      <section class="container">
+        <h1>FAQs</h1>
+        <section aria-label="Frequently Asked Questions" role="region">
+          <div class="accordion">
+            <div class="accordion__question">
+              <h2
+                id="question1"
+                class="question open"
+                tabindex="0"
+                role="button"
+              >
+                What is Frontend Mentor, and how will it help me?
+              </h2>
+              <button
+                type="button"
+                aria-expanded="true"
+                aria-controls="answer1"
+                aria-labelledby="question1"
+              >
+                <span class="sr-only">Toggle answer</span>
+              </button>
+            </div>
+            <p id="answer1" class="accordion__answer" aria-live="polite">
+              Frontend Mentor offers realistic coding challenges to help
+              developers improve their frontend coding skills with projects in
+              HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+              for portfolio building.
+            </p>
+          </div>
+          <div class="accordion">
+            <div class="accordion__question">
+              <h2 class="question" tabindex="0" id="question2" role="button">
+                Is Frontend Mentor free?
+              </h2>
+              <button
+                type="button"
+                aria-expanded="false"
+                aria-controls="answer2"
+                aria-labelledby="question2"
+              >
+                <span class="sr-only">Toggle answer</span>
+              </button>
+            </div>
+            <p id="answer2" class="accordion__answer" aria-live="polite" hidden>
+              Yes, Frontend Mentor offers both free and premium coding
+              challenges, with the free option providing access to a range of
+              projects suitable for all skill levels.
+            </p>
+          </div>
+          <div class="accordion">
+            <div class="accordion__question">
+              <h2 class="question" tabindex="0" id="question3" role="button">
+                Can I use Frontend Mentor projects in my portfolio?
+              </h2>
+              <button
+                type="button"
+                aria-expanded="false"
+                aria-controls="answer3"
+                aria-labelledby="question3"
+              >
+                <span class="sr-only">Toggle answer</span>
+              </button>
+            </div>
+            <p id="answer3" class="accordion__answer" aria-live="polite" hidden>
+              Yes, you can use projects completed on Frontend Mentor in your
+              portfolio. It's an excellent way to showcase your skills to
+              potential employers!
+            </p>
+          </div>
+          <div class="accordion">
+            <div class="accordion__question">
+              <h2 class="question" tabindex="0" id="question4" role="button">
+                How can I get help if I'm stuck on a Frontend Mentor challenge?
+              </h2>
+              <button
+                type="button"
+                aria-expanded="false"
+                aria-controls="answer4"
+                aria-labelledby="question4"
+              >
+                <span class="sr-only">Toggle answer</span>
+              </button>
+            </div>
+            <p id="answer4" class="accordion__answer" aria-live="polite" hidden>
+              The best place to get help is inside Frontend Mentor's Discord
+              community. There's a help channel where you can ask questions and
+              seek support from other community members.
+            </p>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

@@ -10,6 +10,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
 - [Author](#author)
 
 
@@ -47,6 +49,15 @@ Users should be able to:
 - Mobile-first workflow
 - Vanilla JavaScript
 - Sass
+
+### What I learned
+
+Throughout this project, I gained a deeper understanding of accessibility and WAI-ARIA practices. Implementing these techniques helped improve the user experience, especially for users relying on assistive technologies.
+
+### Continued development
+
+In future projects, I plan to focus more on accessibility and WAI-ARIA practices to ensure a better user experience for all users.
+
 
 ## Author
 
